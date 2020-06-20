@@ -18,7 +18,7 @@ app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 // Establishing routes
-const routes = require("./routes/index");
+const routes = require("./routes");
 app.use(routes);
 
 // Sever Listener

@@ -1,0 +1,58 @@
+.containerMain {
+    height: 100vh;
+    background: url(/images/cliff.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* position: absolute; */
+}
+
+.whiteText {
+    color: white;
+}
+
+.heroHome {
+    background-color: rgba(0, 0, 0, .6);
+    text-align: center;
+}
+
+.wrapperHeroHome {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.border {
+    border: hotpink;
+    border-radius: 5px;
+    border-style: dashed;
+}
+
+.textCenter {
+    width: 100%;
+    text-align: center;
+}
+
+.is-underlined {
+    text-decoration: underline;
+}
+
+
+/* .parallax1 {
+    background-image: url("/images/ben2.jpg");
+    min-height: 750px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax2 {
+    background-image: url("/images/ben3.jpg");
+    min-height: 750px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
