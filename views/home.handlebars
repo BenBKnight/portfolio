@@ -1,6 +1,5 @@
 <link rel="stylesheet" href="stylesheets/homeStyle.css">
-
-<main class="html containerMain">
+<main class="containerMain">
     <div class="wrapperHeroHome">
         <section class="hero heroHome">
             <div class="hero-body">
@@ -15,50 +14,159 @@
                 </div>
             </div>
         </section>
-        <span class="blinkMe textCenter arrow whiteText"><i class="fas fa-angle-double-down"
+        <a href="#secondContainer" class="blinkMe textCenter arrow whiteText"><i class="fas fa-angle-double-down"
                 style="font-size: larger;"></i>
-        </span>
+        </a>
     </div>
 
 </main>
-<nav class="navbar " role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-        <a class="navbar-item" href="/">
-            <img src="ben.jpg" width="40" height="28">
-        </a>
+<div class="secondContainer" id="secondContainer">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+                <img src="ben.jpg" width="40" height="28">
+            </a>
 
-        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
-            data-target="navbarBasicExample">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-        </a>
-    </div>
-
-    <div id="navbarBasicExample" class="navbar-menu">
-        <div class="navbar-start">
-            <a class="navbar-item nav-hide" href="/aboutme">Learn more about Ben!</a>
-            <a class="navbar-item nav-hide" href="/contact">Contact Ben!</a>
-            <a class="navbar-item nav-hide" href=""></a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
         </div>
-        <div class="navbar-end">
-            <a class="navbar-item"></a>
-            <a class="navbar-item"></a>
-            <a class="navbar-item"></a>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item nav-hide" href="/aboutme">Learn more about Ben!</a>
+                <a class="navbar-item nav-hide" href="/contact">Contact Ben!</a>
+                <a class="navbar-item nav-hide" href=""></a>
+            </div>
+            <div class="navbar-end">
+                <a class="navbar-item"></a>
+                <a class="navbar-item"></a>
+                <a class="navbar-item"></a>
+
+            </div>
+        </div>
+    </nav>
+
+    <section class="section aboutSection textCenter">
+        <div class=" blackBackground">
+            <h1 class="title whiteText">About</h1>
+        </div>
+    </section>
+
+    <section class="level blackBackground">
+        <div class="has-text-centered">
+            <div class="boxed">
+                <p class="heading"><i class="fas fa-5x fa-cubes homeIcon"></i></p>
+                <p class="subtitle wordBreak">Modular Design: Love the intricacies of modularity</p>
+            </div>
+        </div>
+
+        <div class="has-text-centered">
+            <div class="boxed">
+                <p class="heading"><i class="fas fa-5x fa-toolbox homeIcon"></i></p>
+                <p class="subtitle wordBreak">I have a true passion for building a creating, in all aspects of life</p>
+            </div>
+        </div>
+
+        <div class="has-text-centered">
+            <div class="boxed">
+                <p class="heading"><i class="fas fas-5x fa-mobile-alt homeIcon"></i></p>
+                <p class="subtitle wordBreak">Responsive Design: Enjoy the challenge of designing responsive projects
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <div class="tile is-ancestor" id="is-ancestor">
+
+        <div class="tile is-4 is-vertical is-parent">
+
+            <div class="tile is-child box">
+                <p class="title whiteText">Learn More about me here</p>
+                <p><img class="portfolioPhoto" src="images/benHome.jpg" alt="Portfolio Photo"></p>
+            </div>
+
+            <div class="tile is-child box">
+                <p class="title whiteText">Check out my work so far!</p>
+                <a class="button" href="/portfolio">Show Me!</a>
+            </div>
 
         </div>
+
+        <div class="tile is-7 is-parent" id="proficienciesTile">
+            <div class="tile is-child box">
+                <p class="title whiteText">Proficiencies</p>
+                <table class="table is-striped is-fullwidth">
+                    <thead>
+                        <tr>
+                            <th><abbr title="Language">Language</abbr></th>
+                            <th>Proficiency</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <th>HTML/CSS</th>
+                        <td>9/10</td>
+                    </tbody>
+                    <tbody>
+                        <th>Javascript</th>
+                        <td>8/10</td>
+                    </tbody>
+                    <tbody>
+                        <th>Express/Node.js</th>
+                        <td>7/10</td>
+                    </tbody>
+                </table>
+
+                <table class="table is-striped is-fullwidth">
+                    <thead>
+                        <tr>
+                            <th><abbr title="DataBases">Databases</abbr></th>
+                            <th>Proficiency</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <th>MySQL/Sequelize</th>
+                        <td>8/10</td>
+                    </tbody>
+                    <tbody>
+                        <th>MongoDB/Mongoose</th>
+                        <td>6/10</td>
+                    </tbody>
+                </table>
+
+                <table class="table is-striped is-fullwidth">
+                    <thead>
+                        <tr>
+                            <th><abbr title="Miscellaneous">Miscellaneous</abbr></th>
+                            <th>Proficiency</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <th>Bulma</th>
+                        <td>8/10</td>
+                    </tbody>
+                    <tbody>
+                        <th>MVC</th>
+                        <td>8/10</td>
+                    </tbody>
+                    <tbody>
+                        <th>Jquery</th>
+                        <td>8/10</td>
+                    </tbody>
+                    <tbody>
+                        <th>Bootstrap</th>
+                        <td>7/10</td>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
     </div>
-</nav>
 
-  <section class="section textCenter">
-    <div class="container">
-      <h1 class="title is-underlined">About</h1>
-      <h2 class="subtitle">
-          
-      </h2>
-    </div>
-  </section>
-
-
+</div>
+<div class="thirdContainer"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/home.js"></script>

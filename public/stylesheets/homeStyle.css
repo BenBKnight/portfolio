@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .containerMain {
     height: 100vh;
     background: url(/images/cliff.jpg) no-repeat center center fixed;
@@ -5,7 +9,42 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /* position: absolute; */
+    width: 100%;
+}
+
+.secondContainer {
+    height: 100vh;
+    background: url(/images/waterfall.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.thirdContainer {
+    height: 100vh;
+    background: url(/images/night.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: rgba(128, 128, 128, 0.904);
+}
+
+.level {
+    color: white;
+    word-wrap: break-word;
+}
+
+.homeFontSize {
+    font-size: 5em;
+}
+
+.homeIcon {
+    font-size: 2.5em;
 }
 
 .whiteText {
@@ -39,20 +78,55 @@
     text-decoration: underline;
 }
 
+.wordBreak {
+    color: white;
+}
 
-/* .parallax1 {
-    background-image: url("/images/ben2.jpg");
-    min-height: 750px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .parallax2 {
-    background-image: url("/images/ben3.jpg");
-    min-height: 750px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  } */
+.blackBackground {
+    background-color: rgba(128, 128, 128, 0.904);
+    padding: 20px 0 20px 0;
+}
+
+.boxed {
+    margin: 1em;
+}
+
+.box {
+    background-color: rgba(128, 128, 128, 0.904);
+}
+
+.portfolioPhoto {
+    max-height: 250px;
+    max-width: 200px;
+}
+
+.aboutSection {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.tile {
+    text-align: center;
+}
+
+#is-ancestor {
+    margin-right: 0;
+    margin-left: 0;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .containerMain,
+    .secondContainer,
+    .thirdContainer {
+        background-image: none;
+    }
+    body,
+    html {
+        background-color: lightblue;
+        margin: 0;
+        width: 100%;
+        padding: 0;
+        overflow-x: hidden;
+    }
+}
