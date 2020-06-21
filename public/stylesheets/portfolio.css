@@ -1,0 +1,58 @@
+html {
+    height: 100%;
+    background: url(/images/doubleArch.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: transparent;
+    color: white;
+}
+
+.is-underlined {
+    text-decoration: underline;
+}
+
+.txtWht {
+    color: white;
+}
+
+.is-256x256 {
+    width: 250px;
+    height: 200px;
+}
+
+.whiteBorder {
+    border: white;
+    border-radius: 3px;
+    border-style: groove;
+}
+
+.tile {
+    display: flex;
+}
+
+.txtCenter {
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .hideCode {
+        display: none;
+    }
+    .tile {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 565px) {
+    .tile.is-vertical {
+        flex-direction: inherit;
+    }
+}

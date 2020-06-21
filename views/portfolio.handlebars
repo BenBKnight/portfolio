@@ -1,31 +1,193 @@
+<link rel="stylesheet" href="stylesheets/portfolio.css">
 <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-            <a class="navbar-item" href="/">
-                <img src="ben.jpg" width="40" height="28">
-            </a>
+    <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+            <img src="ben.jpg" width="40" height="28">
+        </a>
 
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
-                data-target="navbarBasicExample">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
+        <a role="button" class="navbar-burger burger txtWht" aria-label="menu" aria-expanded="false"
+            data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+            <a class="navbar-item nav-hide txtWht" href="/aboutme">Learn more about Ben!</a>
+            <a class="navbar-item nav-hide txtWht" href="/contact">Contact Ben!</a>
+            <a class="navbar-item nav-hide txtWht" href=""></a>
         </div>
+        <div class="navbar-end">
+            <a class="navbar-item"></a>
+            <a class="navbar-item"></a>
+            <a class="navbar-item"></a>
 
-        <div id="navbarBasicExample" class="navbar-menu">
-            <div class="navbar-start">
-                <a class="navbar-item nav-hide" href="/aboutme">Learn more about Ben!</a>
-                <a class="navbar-item nav-hide" href="/contact">Contact Ben!</a>
-                <a class="navbar-item nav-hide" href=""></a>
-            </div>
-            <div class="navbar-end">
-                <a class="navbar-item"></a>
-                <a class="navbar-item"></a>
-                <a class="navbar-item"></a>
+        </div>
+    </div>
+</nav>
 
+<section class="hero">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title txtCenter txtWht is-underlined">
+                Projects
+            </h1>
+            <h2 class="subtitle txtCenter txtWht">
+                More to come!
+            </h2>
+        </div>
+    </div>
+</section>
+
+<main class="container">
+
+    <article class="tile level is-parent is-vertical  media">
+        <figure class="tile is-left is-child media-left">
+            <p class="image whiteBorder is-256x256">
+                <img src="images/carFacts.jpg">
+            </p>
+        </figure>
+       <div class="tile is-child media-content ">            <div class="content">
+                <p>
+                    <strong class="txtWht">CarFacts</strong>
+                    <br>
+                    <a href="https://floating-stream-06188.herokuapp.com/">Deployed App!</a>
+                    <br>
+                    <a href="https://github.com/BenBKnight/carFacts">Github Repository</a>
+                </p>
+                <p class="txtWht">CarFacts is our second group project. It utilizes Express/Node.js, express-handlebars,
+                    and MySQL/JawsDB.</p>
+                <p class="txtWht">My contributions took more of a lead role. I saw that my assigned tasks (login,
+                    signup, and user page) were lesser than the others, so I took it
+                    upon myself to set up the routes, server, and call from our API.
+                </p>
             </div>
         </div>
-    </nav>
-<main>
-    
+            <figure class="hideCode level-right tile is-child" class="media-right">
+            <p class="image whiteBorder is-256x256">
+                <img src="images/codeCarFacts.jpg">
+            </p>
+        </figure>
+    </article>
+
+    <article class="tile level is-parent is-vertical  media">
+        <figure class="tile is-left is-child media-left">
+            <p class="image whiteBorder is-256x256">
+                <img src="images/strtupPage.jpg">
+            </p>
+        </figure>
+       <div class="tile is-child media-content ">            <div class="content">
+                <p>
+                    <strong class="txtWht">StrtUp</strong>
+                    <br>
+                    <a href="https://github.com/brentp24/strtUP">Github Repository</a>
+                </p>
+                <p class="txtWht">strtUP is our first group project that utilizes HTML, CSS, Javascript/JQuery.</p>
+                <p class="txtWht">Our group set up the style together as a group. My role, same as the rest, was to set
+                    up two API widgets.
+                    I was able to find and incorporate two independent API's: Holiday API and Dictionary API. I also
+                    modified the Holiday API
+                    with moment.js to give out more readable dates.
+                </p>
+            </div>
+        </div>
+            <figure class="hideCode level-right tile is-child" class="media-right">
+            <p class="image whiteBorder is-256x256">
+                <img src="images/strtupCode.jpg">
+            </p>
+        </figure>
+    </article>
+
+    <article class="tile level is-parent is-vertical  media">
+        <figure class="tile is-left is-child media-left">
+            <p class="image whiteBorder is-256x256">
+                <img src="images/burgerPage.jpg">
+            </p>
+        </figure>
+       <div class="tile is-child media-content ">            <div class="content">
+                <p>
+                    <strong class="txtWht">eatDaBurger</strong>
+                    <br>
+                    <a href="https://stark-eyrie-84445.herokuapp.com/">Deployed App!</a>
+                    <br>
+                    <a href="https://github.com/BenBKnight/eatDaBurger">Github Repository</a>
+                </p>
+                <p class="txtWht">eatDaBurger is an assignment utilizing Express/Node.js, MySQL/JawsDB, and
+                    express-handlebars.</p>
+                <p class="txtWht">This project was our first project we started from scratch, while also using new
+                    technologies.
+                    This was a challenging project, but that made it all more enjoyable for me!
+                </p>
+            </div>
+        </div>
+            <figure class="hideCode level-right tile is-child" class="media-right">
+            <p class="image whiteBorder is-256x256">
+                <img src="images/burgerCode.jpg">
+            </p>
+        </figure>
+    </article>
+
+    <article class="tile level is-parent is-vertical  media">
+        <figure class="tile is-left is-child media-left">
+            <p class="image whiteBorder is-256x256">
+                <img src="images/weatherdashSite.jpg">
+            </p>
+        </figure>
+        <div class="tile is-child media-content ">
+                <div class="content">
+                    <p>
+                        <strong class="txtWht">WeatherDashboard</strong>
+                        <br>
+                        <a href="https://github.com/BenBKnight/WeatherDashboard">Github Repository</a>
+                    </p>
+                    <p class="txtWht">WeatherDashboard is an app that utilizes HTML, CSS, Javascript/JQuery.</p>
+                    <p class="txtWht">This project was my first exposure to API's and making calls to them. This
+                        application
+                        used one
+                        API, but required a few different calls to provide the information required. This was a
+                        challenging
+                        project that
+                        taught me a lot.
+                    </p>
+                </div>
+            </div>
+            <figure class="hideCode level-right tile is-child" class="media-right">
+                <p class="image whiteBorder is-256x256">
+                    <img src="images/weatherdashCode.jpg">
+                </p>
+            </figure>
+    </article>
+
+    <article class="tile level is-parent is-vertical  media">
+        <figure class="tile is-left is-child media-left">
+            <p class="image whiteBorder is-256x256">
+                <img src="images/notetakerSite.jpg">
+            </p>
+        </figure>
+       <div class="tile is-child media-content ">            <div class="content">
+                <p>
+                    <strong class="txtWht">NoteTaker</strong>
+                    <br>
+                    <a href="https://github.com/BenBKnight/notetaker">Github Repository</a>
+                </p>
+                <p class="txtWht">NoteTaker is an app that utilizes HTML, CSS, Javascript/JQuery.</p>
+                <p class="txtWht">NoteTaker gave me a lot of problems. It was one of my first projects that I used
+                    JQuery and also the first I made calls to a local JSON file. I would definitely consider this a
+                    fundamental project
+                    in learning to use these Techs.
+                </p>
+            </div>
+        </div>
+            <figure class="hideCode level-right tile is-child" class="media-right">
+            <p class="image whiteBorder is-256x256">
+                <img src="images/notetakerCode.jpg">
+            </p>
+        </figure>
+    </article>
+
+
+
+
 </main>

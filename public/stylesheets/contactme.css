@@ -1,0 +1,17 @@
+html {
+    height: 100%;
+    background: url(/images/landscape.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.mainContainer {
+    background-color: rgba(128, 128, 128, 0.7);
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}

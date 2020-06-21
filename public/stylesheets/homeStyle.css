@@ -83,7 +83,7 @@ html {
 }
 
 .blackBackground {
-    background-color: rgba(128, 128, 128, 0.904);
+    background-color: rgba(128, 128, 128, 0.7);
     padding: 20px 0 20px 0;
 }
 
@@ -92,7 +92,7 @@ html {
 }
 
 .box {
-    background-color: rgba(128, 128, 128, 0.904);
+    background-color: rgba(128, 128, 128, 0.7);
 }
 
 .portfolioPhoto {
@@ -123,10 +123,13 @@ html {
     }
     body,
     html {
-        background-color: lightblue;
+        background-color: rgba(19, 19, 19, 0.651);
         margin: 0;
         width: 100%;
         padding: 0;
         overflow-x: hidden;
+    }
+    .wrapperHeroHome {
+        position: relative;
     }
 }
