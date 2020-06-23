@@ -2,32 +2,46 @@
     /* The image used */
     background-image: url("/images/ben.jpg");
     /* Set a specific height */
-    min-height: 750px; 
+    min-height: 750px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  .parallax1 {
+}
+
+.parallax1 {
     /* The image used */
     background-image: url("/images/ben2.jpg");
     /* Set a specific height */
-    min-height: 750px; 
+    min-height: 750px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  .parallax2 {
+}
+
+.parallax2 {
     /* The image used */
     background-image: url("/images/ben3.jpg");
     /* Set a specific height */
-    min-height: 750px; 
+    min-height: 750px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+html {
+    background-color: rgba(128, 128, 128, 0.904);
+}
+
+.hero {
+    background-color: transparent;
+}

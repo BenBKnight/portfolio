@@ -24,3 +24,9 @@ html {
     color: black;
     font-style: bold;
 }
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
