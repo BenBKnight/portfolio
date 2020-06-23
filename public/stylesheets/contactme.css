@@ -15,3 +15,12 @@ html {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+
+.navbar {
+    background-color: rgba(128, 128, 128, 0.7);
+}
+
+.txtBlk {
+    color: black;
+    font-style: bold;
+}
