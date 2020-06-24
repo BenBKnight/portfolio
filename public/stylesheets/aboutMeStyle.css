@@ -38,10 +38,17 @@ html {
 }
 
 @media only screen and (max-width: 768px) {
-    .parallax,
-    .parallax1,
+    .parallax {
+        background-image: none;
+        min-height: 15px;
+    }
+    .parallax1 {
+        background-image: none;
+        min-height: 15px;
+    }
     .parallax2 {
         background-image: none;
+        min-height: 15px;
     }
     body,
     html {
@@ -50,6 +57,16 @@ html {
         width: 100%;
         padding: 0;
         overflow-x: hidden;
+    }
+    .title,
+    .subtitle,
+    .navbar,
+    .burger,
+    .navbar-item {
+        color: white;
+    }
+    .navbar-menu {
+        background-color: transparent;
     }
     /* .wrapperHeroHome {
         position: relative;
