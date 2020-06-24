@@ -41,6 +41,10 @@ html {
     text-align: center;
 }
 
+.navbar-menu {
+    background-color: transparent;
+}
+
 @media only screen and (max-width: 768px) {
     .hideCode {
         display: none;

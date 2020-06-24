@@ -1,9 +1,6 @@
 .parallax {
-    /* The image used */
     background-image: url("/images/ben.jpg");
-    /* Set a specific height */
     min-height: 750px;
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,11 +8,8 @@
 }
 
 .parallax1 {
-    /* The image used */
     background-image: url("/images/ben2.jpg");
-    /* Set a specific height */
     min-height: 750px;
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -23,11 +17,8 @@
 }
 
 .parallax2 {
-    /* The image used */
     background-image: url("/images/ben3.jpg");
-    /* Set a specific height */
     min-height: 750px;
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,4 +35,23 @@ html {
 
 .hero {
     background-color: transparent;
+}
+
+@media only screen and (max-width: 768px) {
+    .parallax,
+    .parallax1,
+    .parallax2 {
+        background-image: none;
+    }
+    body,
+    html {
+        background-color: rgba(19, 19, 19, 0.651);
+        margin: 0;
+        width: 100%;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    /* .wrapperHeroHome {
+        position: relative;
+    } */
 }
